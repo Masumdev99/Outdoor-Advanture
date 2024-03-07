@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;1,200;1,300;1,500;1,600;1,700&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.container {
+    width: 1700px;
+    margin: auto;
+}
+
+header {
+    background-image: url(../Images/road.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(103, 10, 10);
+    background-blend-mode: hard-light;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {}
+
+.logo h1 {}
+
+.logo h1 {}
+
+.logo h1 a {
+    text-decoration: none;
+    color: #d61464;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+nav {}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(186 204 20);
+}
+
+nav ul li:last-child {
+    border: 2px solid red;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+
+}
+
+.logo h1 a span {
+    font-weight: 300;
+}
+
+/* banner start */
+.banner {
+    font-size: larger;
+    text-align: center;
+    padding: 130px 0;
+    color: white;
+}
+
+.banner h3 {
+    font-size: larger;
+    margin-bottom: 2px;
+}
+
+.banner h1 {}
+
+.banner span {
+    display: block;
+    background-color: red;
+    height: 5px;
+    width: 150px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.banner button {
+    padding: 15px10px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 90px;
+    background-color: #b30e50;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
